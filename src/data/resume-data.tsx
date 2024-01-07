@@ -2,7 +2,7 @@ import { GitHubIcon, LinkedInIcon, XIcon } from "@/components/icons";
 import { NSNLogo } from "@/images/logos";
 
 export const RESUME_DATA = {
-  name: "Gino Daloisio",
+  name: "Gino D'Aloisio",
   initials: "GD",
   location: "Buenos Aires, Argentina",
   locationLink: "https://www.google.com/maps/place/BuenosAires",
