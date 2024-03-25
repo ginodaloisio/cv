@@ -4,8 +4,8 @@ import { NSNLogo } from "@/images/logos";
 export const RESUME_DATA = {
   name: "Gino D'Aloisio",
   initials: "GD",
-  location: "Buenos Aires, Argentina",
-  locationLink: "https://www.google.com/maps/place/BuenosAires",
+  location: "Málaga, España",
+  locationLink: "https://www.google.com/maps/place/Malaga",
   about:
     "Full Stack Developer focused on building products with extra attention to detail",
   summary:
@@ -42,6 +42,26 @@ export const RESUME_DATA = {
     },
   ],
   work: [
+    {
+      company: "Winter Zero S.A",
+      link: "https://ar.linkedin.com/company/winterzerosa",
+      badges: [],
+      title: "Salesman",
+      logo: NSNLogo,
+      start: "2016",
+      end: "2024",
+      description: "Worked on temporary contract during summer vacations",
+    },
+    {
+      company: "Redacted",
+      badges: [],
+      title: "Full Stack Developer",
+      logo: NSNLogo,
+      start: "2023",
+      end: "2024",
+      description:
+        "Created frontend and backend logic, still working as a free-lancer on the project",
+    },
     {
       company: "Free Lance — Alpha Zone Roleplay",
       link: "https://www.az-rp.com",
