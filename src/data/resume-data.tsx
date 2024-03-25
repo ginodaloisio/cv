@@ -54,6 +54,7 @@ export const RESUME_DATA = {
     },
     {
       company: "Redacted",
+      link: "https://google.com",
       badges: [],
       title: "Full Stack Developer",
       logo: NSNLogo,
