@@ -1,5 +1,5 @@
 import { GitHubIcon, LinkedInIcon, XIcon } from "@/components/icons";
-import { NSNLogo } from "@/images/logos";
+import { AlphaZoneLogo, WinterZeroLogo } from "@/images/logos";
 
 export const RESUME_DATA = {
   name: "Gino D'Aloisio",
@@ -47,28 +47,17 @@ export const RESUME_DATA = {
       link: "https://ar.linkedin.com/company/winterzerosa",
       badges: [],
       title: "Salesman",
-      logo: NSNLogo,
+      logo: WinterZeroLogo,
       start: "2016",
       end: "2024",
       description: "Worked on temporary contract during summer vacations",
-    },
-    {
-      company: "Redacted",
-      link: "https://google.com",
-      badges: [],
-      title: "Full Stack Developer",
-      logo: NSNLogo,
-      start: "2023",
-      end: "2024",
-      description:
-        "Created frontend and backend logic, still working as a free-lancer on the project",
     },
     {
       company: "Free Lance — Alpha Zone Roleplay",
       link: "https://www.az-rp.com",
       badges: [],
       title: "Full Stack Developer",
-      logo: NSNLogo,
+      logo: AlphaZoneLogo,
       start: "2023",
       end: "2023",
       description: "Creating the entire site from an old PHP template",
@@ -89,6 +78,89 @@ export const RESUME_DATA = {
       title: "T3 Stock Manager",
       techStack: ["Personal Project", "TypeScript", "Next.JS"],
       description: "An Next.JS application designed to keep track of an stock",
+    },
+  ],
+} as const;
+
+export const ES_RESUME_DATA = {
+  name: "Gino D'Aloisio",
+  initials: "GD",
+  location: "Málaga, España",
+  locationLink: "https://www.google.com/maps/place/Malaga",
+  about: "Desarrollador Full Stack, Vendedor",
+  summary:
+    "Soy una persona organizada y responsable, me complemento bien en equipo, soluciono problemas de manera eficaz y eficiente, tengo una excelente predisposición, estar siempre bien informado sobre los productos que vendo y que utilizo diariamente en el trabajo es una obligación para mi.",
+  avatarUrl: "https://avatars.githubusercontent.com/u/65517605?v=4",
+  personalWebsiteUrl: "https://www.ginodaloisio.com/es",
+  contact: {
+    email: "ginodaloisio@icloud.com",
+    tel: "+5492254424392",
+    social: [
+      {
+        name: "GitHub",
+        url: "https://github.com/ginodaloisio",
+        icon: GitHubIcon,
+      },
+      {
+        name: "LinkedIn",
+        url: "https://www.linkedin.com/in/gino-d%E2%80%99aloisio-a80191263/",
+        icon: LinkedInIcon,
+      },
+      {
+        name: "X",
+        url: "https://x.com/ginodaloisio_",
+        icon: XIcon,
+      },
+    ],
+  },
+  education: [
+    {
+      school: "Facultad de Ciencias Exactas",
+      degree: "Ingeniería de Sistemas — actualmente cursando",
+      start: "2019",
+      end: "2024",
+    },
+  ],
+  languages: ["Español", "Inglés"],
+  work: [
+    {
+      company: "Winter Zero S.A",
+      link: "https://ar.linkedin.com/company/winterzerosa",
+      badges: [],
+      title: "Vendedor",
+      logo: WinterZeroLogo,
+      start: "2016",
+      end: "2024",
+      description:
+        "Atención al publico personalizada, principalmente marca Oakley",
+    },
+    {
+      company: "Free Lance — Alpha Zone Roleplay",
+      link: "https://www.az-rp.com",
+      badges: ["Remoto"],
+      title: "Full Stack Developer",
+      logo: AlphaZoneLogo,
+      start: "2023",
+      end: "2023",
+      description:
+        "Desarrollo completo del sitio web copiando al sitio antiguo",
+    },
+  ],
+  skills: ["JavaScript", "TypeScript", "React/Next.js", "Node.js", "C"],
+  projects: [
+    {
+      title: "create-faith-app",
+      techStack: ["Side Project", "TypeScript", "CLI"],
+      description: "Herramienta CLI para iniciar un nuevo proyecto con Next.js",
+      link: {
+        label: "create-faith-app",
+        href: "https://github.com/ginodaloisio/create-faith-app",
+      },
+    },
+    {
+      title: "T3 Stock Manager",
+      techStack: ["Personal Project", "TypeScript", "Next.JS"],
+      description: "App web para controlar stock",
     },
   ],
 } as const;
