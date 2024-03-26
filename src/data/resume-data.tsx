@@ -1,5 +1,4 @@
 import { GitHubIcon, LinkedInIcon, XIcon } from "@/components/icons";
-import { AlphaZoneLogo, WinterZeroLogo } from "@/images/logos";
 
 export const RESUME_DATA = {
   name: "Gino D'Aloisio",
@@ -47,7 +46,6 @@ export const RESUME_DATA = {
       link: "https://ar.linkedin.com/company/winterzerosa",
       badges: [],
       title: "Salesman",
-      logo: WinterZeroLogo,
       start: "2016",
       end: "2024",
       description: "Worked on temporary contract during summer vacations",
@@ -57,7 +55,6 @@ export const RESUME_DATA = {
       link: "https://www.az-rp.com",
       badges: [],
       title: "Full Stack Developer",
-      logo: AlphaZoneLogo,
       start: "2023",
       end: "2023",
       description: "Creating the entire site from an old PHP template",
@@ -128,7 +125,6 @@ export const ES_RESUME_DATA = {
       link: "https://ar.linkedin.com/company/winterzerosa",
       badges: [],
       title: "Vendedor",
-      logo: WinterZeroLogo,
       start: "2016",
       end: "2024",
       description:
@@ -139,7 +135,6 @@ export const ES_RESUME_DATA = {
       link: "https://www.az-rp.com",
       badges: ["Remoto"],
       title: "Full Stack Developer",
-      logo: AlphaZoneLogo,
       start: "2023",
       end: "2023",
       description:
