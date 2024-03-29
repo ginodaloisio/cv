@@ -86,7 +86,7 @@ export const ES_RESUME_DATA = {
   locationLink: "https://www.google.com/maps/place/Malaga",
   about: "Desarrollador Full Stack, Vendedor",
   summary:
-    "Soy una persona organizada y responsable, me complemento bien en equipo, soluciono problemas de manera eficaz y eficiente, tengo una excelente predisposición, estar siempre bien informado sobre los productos que vendo y que utilizo diariamente en el trabajo es una obligación para mi.",
+    "Soy una persona organizada y responsable me complemento bien en equipo, soluciono problemas de manera eficaz y eficiente. Tengo una excelente predisposición. Mantenerme siempre bien informado sobre los productos que vendo y que utilizo diariamente en el trabajo es una obligación para mí.",
   avatarUrl: "https://avatars.githubusercontent.com/u/65517605?v=4",
   personalWebsiteUrl: "https://www.ginodaloisio.com/es",
   contact: {
@@ -113,9 +113,9 @@ export const ES_RESUME_DATA = {
   education: [
     {
       school: "Facultad de Ciencias Exactas",
-      degree: "Ingeniería de Sistemas — actualmente cursando",
+      degree: "Ingeniería de Sistemas — no terminada",
       start: "2020",
-      end: "2024",
+      end: "2022",
     },
     {
       school: "Escuela Secundaria Técnica N1",
