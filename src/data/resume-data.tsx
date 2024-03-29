@@ -13,7 +13,7 @@ export const RESUME_DATA = {
   personalWebsiteUrl: "https://www.ginodaloisio.com",
   contact: {
     email: "ginodaloisio@icloud.com",
-    tel: "+5492254424392",
+    tel: "+34 663 710 865",
     social: [
       {
         name: "GitHub",
@@ -74,7 +74,7 @@ export const RESUME_DATA = {
     {
       title: "T3 Stock Manager",
       techStack: ["Personal Project", "TypeScript", "Next.JS"],
-      description: "An Next.JS application designed to keep track of an stock",
+      description: "Next.JS application designed to keep track of stock",
     },
   ],
 } as const;
@@ -91,7 +91,7 @@ export const ES_RESUME_DATA = {
   personalWebsiteUrl: "https://www.ginodaloisio.com/es",
   contact: {
     email: "ginodaloisio@icloud.com",
-    tel: "+5492254424392",
+    tel: "+34 663 710 865",
     social: [
       {
         name: "GitHub",
@@ -114,8 +114,14 @@ export const ES_RESUME_DATA = {
     {
       school: "Facultad de Ciencias Exactas",
       degree: "Ingeniería de Sistemas — actualmente cursando",
-      start: "2019",
+      start: "2020",
       end: "2024",
+    },
+    {
+      school: "Escuela Secundaria Técnica N1",
+      degree: "Técnico Superior en Electromecánica",
+      start: "2012",
+      end: "2019",
     },
   ],
   languages: ["Español", "Inglés"],
@@ -131,7 +137,7 @@ export const ES_RESUME_DATA = {
         "Atención al publico personalizada, principalmente marca Oakley",
     },
     {
-      company: "Free Lance — Alpha Zone Roleplay",
+      company: "Free Lance — AlphaZone Roleplay",
       link: "https://www.az-rp.com",
       badges: ["Remoto"],
       title: "Full Stack Developer",
@@ -141,11 +147,20 @@ export const ES_RESUME_DATA = {
         "Desarrollo completo del sitio web copiando al sitio antiguo",
     },
   ],
-  skills: ["JavaScript", "TypeScript", "React/Next.js", "Node.js", "C"],
+  skills: [
+    "JavaScript",
+    "TypeScript",
+    "React/Next.js",
+    "NestJS",
+    "Node.js",
+    "C",
+    "Cloudflare",
+    "Protección Anti-DDoS",
+  ],
   projects: [
     {
       title: "create-faith-app",
-      techStack: ["Side Project", "TypeScript", "CLI"],
+      techStack: ["Proyecto personal", "TypeScript", "CLI"],
       description: "Herramienta CLI para iniciar un nuevo proyecto con Next.js",
       link: {
         label: "create-faith-app",
@@ -154,7 +169,7 @@ export const ES_RESUME_DATA = {
     },
     {
       title: "T3 Stock Manager",
-      techStack: ["Personal Project", "TypeScript", "Next.JS"],
+      techStack: ["Proyecto personal", "TypeScript", "Next.js"],
       description: "App web para controlar stock",
     },
   ],
