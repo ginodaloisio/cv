@@ -3,12 +3,12 @@ import { GitHubIcon, LinkedInIcon, XIcon } from "@/components/icons";
 export const RESUME_DATA = {
   name: "Gino D'Aloisio",
   initials: "GD",
-  location: "Málaga, España",
+  location: "Málaga, Spain",
   locationLink: "https://www.google.com/maps/place/Malaga",
   about:
     "Full Stack Developer focused on building products with extra attention to detail",
   summary:
-    "My focus lies in crafting apps that strike a balance between user-friendliness and complexity, as I am deeply committed to incorporating meticulous attention to detail in every project. I currently work with Next.js, TypeScript, and Node.js, accumulating over 3 years of experience in developing both personal and freelance-related applications.",
+    "My focus lies in crafting apps that strike a balance between user-friendliness and complexity, as I am deeply committed to incorporating meticulous attention to detail in every project. I currently work with Next.js, TypeScript, and Node.js, accumulating over 4 years of experience in developing both personal and freelance-related applications.",
   avatarUrl: "https://avatars.githubusercontent.com/u/65517605?v=4",
   personalWebsiteUrl: "https://www.ginodaloisio.com",
   contact: {
@@ -42,19 +42,40 @@ export const RESUME_DATA = {
   ],
   work: [
     {
-      company: "Winter Zero S.A",
-      link: "https://ar.linkedin.com/company/winterzerosa",
+      company: "Free Lance — Web Application",
+      link: "#",
       badges: [],
-      title: "Salesman",
-      start: "2016",
-      end: "2024",
-      description: "Worked on temporary contract during summer vacations",
+      title: "Full Stack",
+      start: "December 2024",
+      end: "today",
+      description:
+        "Website design and development with Next.js 15. Integration with KeyAuth (license manager) for user administration.",
+    },
+    {
+      company: "Free Lance — Web Application",
+      link: "#",
+      badges: [],
+      title: "Full Stack",
+      start: "March 2024",
+      end: "today",
+      description:
+        "Front-end application migration from React 16 to React 18. Seamless integration with existing backend infrastructure. Delivery of updated, efficient and easily maintainable codebase.",
+    },
+    {
+      company: "Free Lance — Web Application",
+      link: "#",
+      badges: [],
+      title: "Full Stack",
+      start: "January 2023",
+      end: "today",
+      description:
+        "Complete website development using Next.js 14, TailwindCSS, Prisma, tRPC and React Server Actions. Design and implementation of PostgreSQL database, APIs with queue systems in Node.js, load balancers in Go for multi-VPS socket connections. Development of additional APIs in Go and C scripts for managing various tasks. Administration of VPS and dedicated servers, supervising the deployment and maintenance of infrastructure.",
     },
     {
       company: "Free Lance — Alpha Zone Roleplay",
       link: "https://www.az-rp.com",
       badges: [],
-      title: "Full Stack Developer",
+      title: "Full Stack",
       start: "2023",
       end: "2023",
       description: "Creating the entire site from an old PHP template",
