@@ -1,6 +1,5 @@
 import type { Metadata } from "next";
 import { Analytics } from "@vercel/analytics/react";
-import { GeistSans } from "geist/font/sans";
 import "./globals.css";
 import { RESUME_DATA } from "@/data/resume-data";
 import React from "react";
@@ -51,7 +50,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html lang="en" className={GeistSans.className}>
+    <html lang="en">
       <body>{children}</body>
       <Analytics />
     </html>
